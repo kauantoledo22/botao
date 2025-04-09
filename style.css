@@ -1,10 +1,14 @@
 .save-button{
-    background-color: red;
+    background-color: rgb(255, 0, 0);
     color: white;
-    border: nome;
+    border: none;
     padding: 10px 20px;
     font-size: 10px;
+    cursor: pointer;
     cursor: 0.8;
     transition: opacity 0.3s ease;
     border-radius: 5%;
+}
+.save-button:hover{
+    opacity: 1;
 }
